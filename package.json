@@ -1,0 +1,24 @@
+{
+  "name": "spotifydj",
+  "version": "1.0.0",
+  "description": "Multiuser Spotify DJing App, allowing multiple user to listen to the same songs at the same time.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon run app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fred-h-nguyen/SpotifyDJ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fred-h-nguyen/SpotifyDJ/issues"
+  },
+  "homepage": "https://github.com/fred-h-nguyen/SpotifyDJ#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "spotify-web-api-js": "^1.5.1"
+  }
+}
